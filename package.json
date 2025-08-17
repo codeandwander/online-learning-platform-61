@@ -1,0 +1,14 @@
+{
+  "name": "online-learning-platform",
+  "version": "1.0.0",
+  "description": "Project based on brief: Online Learning Platform",
+  "type": "static-site",
+  "scripts": {
+    "preview": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "static-site",
+    "cloudflare-workers"
+  ],
+  "deployment": "cloudflare-workers"
+}
